@@ -1,5 +1,6 @@
 import Select from './Select';
 import type { GroupBase } from './types';
+export type { FilterOptionOption } from './filters';
 import useStateManager from './useStateManager';
 
 export { default } from './stateManager';
@@ -41,7 +42,7 @@ export type { OptionProps } from './components/Option';
 export type { PlaceholderProps } from './components/Placeholder';
 export type { SingleValueProps } from './components/SingleValue';
 export type { ThemeConfig } from './theme';
-export type { StylesConfig } from './styles';
+export type { ClassNamesConfig, StylesConfig } from './styles';
 export * from './types';
 export type {
   OptionContext,
